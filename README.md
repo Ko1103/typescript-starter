@@ -12,4 +12,4 @@ This repository contains
 ## Environment
 
 - M1 Mac
-- Node.js v18 ~
+- Node.js v22 ~
