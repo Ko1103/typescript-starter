@@ -1,4 +1,4 @@
-FROM node:18 AS build
+FROM node:22 AS build
 
 ENV TINI_VERSION v0.19.0
 ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /tini
@@ -12,7 +12,7 @@ COPY . .
 RUN npm run build
 
 
-FROM node:18-slim
+FROM node:22-slim
 ENV NODE_ENV=production
 
 COPY --from=build --chown=node:node /tini /tini
