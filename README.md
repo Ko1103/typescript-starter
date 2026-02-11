@@ -1,7 +1,6 @@
-# One Day One Word
+# my-template
 
-毎日1単語、課題の英単語を勉強するアプリ
-1単語にするか、3つにするなど選べる
+Next.js App Router のスターターテンプレート。
 
 ## 技術スタック
 
@@ -13,10 +12,6 @@
 ## Quick Start
 
 ```bash
-# リポジトリをクローン
-git clone https://github.com/Ko1103/1day1word.git
-cd 1day1word
-
 # 依存関係のインストール
 pnpm install
 
