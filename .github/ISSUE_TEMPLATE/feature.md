@@ -1,22 +1,22 @@
 ---
-name: 新機能の提案 / Feature request
-about: 新機能の追加や既存機能の改善要望を作成します。
-title: "feat: "
+name: Feature request
+about: Suggest a new feature or improvement to an existing one.
+title: 'feat: '
 labels: enhancement
 ---
 
-## 概要
+## Summary
 
-<!-- 解決したい課題や実現したいことを簡潔に記載してください。 -->
+<!-- Briefly describe the problem you want to solve or the goal you want to achieve. -->
 
-## 提案する解決策
+## Proposed Solution
 
-<!-- どのような UI / 振る舞いを想定しているか記載してください。 -->
+<!-- Describe the UI or behavior you have in mind. -->
 
-## 代替案
+## Alternatives Considered
 
-<!-- 他に検討したアプローチがあれば記載してください。なければ「なし」と書いてください。 -->
+<!-- List any other approaches you considered. If none, write "None." -->
 
-## 補足
+## Additional Context
 
-<!-- スクリーンショット・参考リンク・関連する Issue などがあれば記載してください。 -->
+<!-- Add any screenshots, reference links, or related issues here. -->

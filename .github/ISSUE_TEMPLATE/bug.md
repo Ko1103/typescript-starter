@@ -1,39 +1,39 @@
 ---
-name: バグ報告 / Bug report
-about: 不具合を報告します。
-title: "fix: "
+name: Bug report
+about: Report a bug or unexpected behavior.
+title: 'fix: '
 labels: bug
 ---
 
-## 発生している問題
+## Problem Description
 
-<!-- どのような不具合が起きているか簡潔に記載してください。 -->
+<!-- Briefly describe what is going wrong. -->
 
-## 再現手順
+## Steps to Reproduce
 
-<!-- 例:
-1. サイドパネルを開く
-2. 共有ドライブを展開する
+<!-- Example:
+1. Open the side panel
+2. Expand the shared drive
 3. ... -->
 
 1.
 2.
 3.
 
-## 期待する挙動
+## Expected Behavior
 
-<!-- 本来どうあるべきかを記載してください。 -->
+<!-- Describe what you expected to happen. -->
 
-## 実際の挙動
+## Actual Behavior
 
-<!-- 実際に何が起きたかを記載してください。 -->
+<!-- Describe what actually happened. -->
 
-## 環境
+## Environment
 
-- Chrome バージョン:
+- Chrome version:
 - OS:
-- 拡張機能バージョン:
+- Extension version:
 
-## 補足
+## Additional Context
 
-<!-- スクリーンショット・コンソールログ・関連する Issue などがあれば記載してください。 -->
+<!-- Add any screenshots, console logs, or related issues here. -->
