@@ -1,36 +1,14 @@
-# AGENTS.md
+# For Coding Agents
 
-## プロジェクト概要
-
-Next.js App Router ベースの Web アプリケーションテンプレート。
-
-## 技術スタック・バージョン
-
-| ツール                 | バージョン | 用途                           |
-| ---------------------- | ---------- | ------------------------------ |
-| Node.js                | v24        | ランタイム (fnm で管理)        |
-| pnpm                   | v10        | パッケージマネージャー         |
-| Next.js                | 16.1.6     | フレームワーク (App Router)    |
-| React                  | 19.2.4     | UI ライブラリ                  |
-| TypeScript             | ^5         | 型付き言語                     |
-| Tailwind CSS           | ^4         | ユーティリティ CSS             |
-| shadcn/ui              | -          | UI コンポーネント              |
-| ESLint                 | ^9         | リンター（flat config 形式）   |
-| eslint-config-next     | 16.1.6     | Next.js 向け ESLint ルール     |
-| eslint-config-prettier | ^10        | Prettier との競合回避          |
-| Prettier               | ^3.8       | コードフォーマッター           |
-| husky                  | ^9         | Git hooks 管理                 |
-| lint-staged            | ^16        | ステージファイルの lint/format |
-
-## コマンド一覧
+## Commands
 
 ```bash
-pnpm dev            # 開発サーバー起動 (http://localhost:3000)
-pnpm build          # プロダクションビルド
-pnpm start          # プロダクションサーバー起動
-pnpm lint           # ESLint 実行
-pnpm format         # Prettier で全ファイルをフォーマット
-pnpm format:check   # フォーマット差分チェック（CI 向け）
+pnpm dev            # dev server (http://localhost:3000)
+pnpm build          # production build
+pnpm start          # up prod server
+pnpm lint
+pnpm format
+pnpm format:check   # format check for CI
 ```
 
 ## Git hooks
@@ -39,7 +17,7 @@ pnpm format:check   # フォーマット差分チェック（CI 向け）
   - `*.{ts,tsx}` → `eslint --fix` + `prettier --write`
   - `*.{json,css,md}` → `prettier --write`
 
-## ディレクトリ構成
+## Directory Structure
 
 ```text
 .
